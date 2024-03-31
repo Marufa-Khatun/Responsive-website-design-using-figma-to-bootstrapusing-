@@ -1,0 +1,121 @@
+@media (max-width:575px) {
+    .banner_text h1{
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    .banner_text{
+        text-align: center;
+    }
+    .about_full{
+        padding: 50px 0;
+        
+    }
+   
+    .section-heading{
+        text-align: center;
+        
+    }
+    .section-heading h2{
+        font-size: 26px; 
+         
+    }
+    .portfolio h5{
+        font-size: 20px;
+    }
+    .footer-full{
+        padding-bottom: 20px;
+    }
+    .footer-menu{
+        width: 150%;
+    }
+    .footer-menu a{
+         
+    }
+
+    .cont_btn{
+        margin-bottom: 50px;
+    }
+    .footer-nav ul li a{
+        padding: 18px 10px;
+    }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767px) { 
+    .banner_text h1{
+        font-size: 26px;
+    }
+    .cont_btn button, .cont_btn a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    .banner_text p{
+        width: 260px;
+        font-size: 16px;
+    }
+    .section-heading{
+        text-align: center;
+        
+    }
+    .section-heading h2{
+        font-size: 26px; 
+         
+    }
+
+    .footer-full{
+        padding-bottom: 20px;
+    }
+    .footer-nav ul li a{
+        padding: 18px 10px;
+    }
+    .footer-icon{
+        padding: 18px ;
+    }
+    
+    
+
+   
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner_text h1{
+        font-size: 32px;
+        margin-top: 30px;
+    }
+     .cont_btn a{
+        font-weight: 600;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .section-heading{
+        margin-top: 0;
+    }
+    .section-heading h2{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .section-heading p{
+        font-size: 16px;
+    }
+    .feature-col .card-body{
+        padding: 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .card-body h6{
+        font-size: 16px;
+    }
+    .footer-full{
+        padding-bottom: 20px;
+    }
+    .footer-icon{
+        padding: 18px ;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+}

@@ -1,0 +1,59 @@
+.navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace ;
+    text-transform: capitalize;
+
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover{
+    color: yellowgreen;
+}
+.fullSlider .carousel-caption{
+    bottom: 0;
+    top: 30%;
+}
+.fullSlider .carousel-caption p{
+    font-size: 24px;
+    font-weight: 500;
+}
+.feature_title{
+    text-align: center;
+    
+}
+
+.feature_title h4{
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+.feature_title h4::before{
+    content: "";
+    height: 2px;
+    width: 4%;
+    background-color:rgb(0, 128, 255) ;
+    left: 52%;
+    right: 0%;
+    bottom: 0;
+    position: absolute;
+    transform: translate(-50%);
+}
+.feature{
+    text-align: center;
+    font-family: inter;
+}
+.feature h4{
+    font-weight: 700;
+}
+
+.feature button:hover{
+    color: #fff;
+}
+.feature-icon{
+    color: rgb(0, 128, 255);
+    
+}
+
+
+

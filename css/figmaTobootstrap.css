@@ -1,0 +1,143 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+
+.font-ws{
+    font-family: 'Work Sans', sans-serif;
+}
+@font-face{
+    font-family: outfit;
+    src: url(../webfonts/Outfit-Regular.ttf);
+    }
+/* navbar css start */
+
+.navbar-nav{
+    padding: 40px 0;
+}
+
+.navbar-nav .nav-link{
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+    display: block; 
+    position: relative;
+    padding: 0!important;
+}
+.navbar-nav .nav-link:hover
+{
+    color:#756BEE;
+}
+.navbar-nav .nav-link:before{
+    content: "";
+    height: 2px;
+    width: 0;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background-color: #756BEE;
+    transition: all 0.5s linear;
+
+}
+.cont_btn button,
+.cont_btn a
+{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 38px;
+    background-color: #756BEE;
+}
+
+.navbar-nav .nav-link:hover:before{
+    width: 100%;
+}
+
+/* === Banner full css start === */
+
+.banner_full{
+    background-color: #FBF7EC;
+    padding: 50px 0 25px 0;
+}
+
+.banner_text h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner_text span{
+    color:#756BEE ;
+}
+.banner_text p{
+    font-size: 18px;
+}
+
+.about_full{
+    padding: 100px 0 80px 0;
+
+}
+.section-heading h2{
+    font-size: 55px;
+    font-family: outfit;
+    font-weight: 600;
+}
+.section-heading p{
+    font-size: 18px;
+}
+/* ====== end of about ====== */
+
+.feature-full{
+    padding: 80px 0 100px 0;
+    background-color: #E8E8E8;
+}
+.feature-col{
+    transition: all 0.5s linear;
+}
+.feature-col:hover{
+    background-color: #7854F7;
+    color: #fff;
+    border-color: #7854F7;
+}
+/* end of feature section */
+.contact-full{
+    background-color: #7854F7;
+    font-family: outfit;
+}
+.port-image h5{
+    font-size: 34px;
+    font-family: outfit;
+    font-weight: 600;
+    margin-top: 20px;
+}
+section.testimonial {
+    padding-bottom: 52px;
+}
+
+/* end of portfolio section */
+.footer-full{  
+    font-family: outfit; 
+    padding: 80px 0
+}
+.footer-menu a{
+    padding-right: 15px; 
+}
+.footer-top-menu{
+    padding: 30px 0 30px 0;
+}
+.footer-icon a{
+    padding-left: 15px;   
+}
+.footer-nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+.footer-icon {
+    padding-top: 20px ;
+}
+.footer-nav ul li:first-child a{
+    padding-left: 0;
+}
+.footer-nav ul li a:hover{
+    color: #756BEE;
+}
